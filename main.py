@@ -16,3 +16,11 @@ for num in range(110203, 110246):
     if len(answ) == 4:
         answ.sort()
         print(answ)
+
+for i in range(1, 6):
+    for j in range(1, 6):
+        res = i * j
+        if j == 6:
+            print()
+        print(f'{i} * {j} = {res}')
+        print('SUIIII')
