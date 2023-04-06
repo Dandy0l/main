@@ -1,4 +1,4 @@
-def func(x):
+def need(x):
     m = []
     for i in range(1, int(x ** 0.5) + 1):
         if x == i * i:
@@ -12,7 +12,7 @@ def func(x):
     return m
 
 for num in range(110203, 110246):
-    answ = func(num)
+    answ = need(num)
     if len(answ) == 4:
         answ.sort()
         print(answ)
